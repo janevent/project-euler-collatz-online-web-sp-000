@@ -32,7 +32,7 @@ def longest_collatz
   currentArray = []
   maxArray = []
   maxStart = start
-  until start < 999899 
+  until start < 800000 
     currentArray = collatz(start)
     if maxArray.length < currentArray.length 
       maxArray = currentArray 
