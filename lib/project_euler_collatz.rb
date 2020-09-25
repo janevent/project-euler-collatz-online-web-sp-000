@@ -20,7 +20,7 @@ def collatz(n)
  
   while i >= 1 
     array.push(i) 
-    puts i
+    #puts i
     break if i === 1
     i = next_value(i)
   end
